@@ -1,0 +1,80 @@
+.mainn {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.container {
+    height: 500px;
+    width: 350px;
+    box-shadow: #682ae9 0 2px 20px -3px ;
+    background-size: cover;
+    font-family: 'Abel', sans-serif;
+    background-image: url("../content/logo/faijanmomin-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.gradient {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(0deg, #682ae9, #662ae9d2,#662ae96e);
+    color: white;
+}
+
+.content {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: xx-large;
+    letter-spacing: -1px;
+}
+
+.details {
+    font-style: italic;
+    color: rgb(185, 206, 224);
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    top: -160px;
+    position: absolute;
+    left: 90%;
+}
+
+.icons a{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(202, 215, 226);
+    transition: 0.3s;
+}
+
+.icons a:hover {
+    color: white;
+}
+  #nav-icon-call{
+    background-image: url('../content/icons/call.svg');
+  }
+  #nav-icon-email{
+    background-image: url('../content/icons/envelope.svg');
+  } 
+  #nav-icon-telegram{
+    background-image: url('../content/icons/telegram.svg');  
+  }
+  #nav-icon-whatsapp{
+    background-image: url('../content/icons/whatsapp.svg');
+    fill: #fff;
+  }
+@media only screen and (max-width:400px) {
+    .container {
+        height: 450px;
+        width: 300px;
+    }
+}

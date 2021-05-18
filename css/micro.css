@@ -1,0 +1,177 @@
+html,body{
+  overflow: hidden;
+}
+body{
+    background: #0e1212;
+}
+
+.microproject-section{
+    width: 100%;
+    height: 100%;
+    background-color: #0e1212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+.microproject-section-div{
+    padding: 0px 10px;
+}
+.microproject-section-div-box{ /* Microproject Box */
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid #0e1212;
+    background-color: rgba(255, 255, 255, 0.13);
+    padding: 20px 45px;
+    border-radius: 10px;
+    animation: BoxAnimation 1s forwards ease-in-out;
+    margin-top: -100vh;
+}
+@keyframes BoxAnimation {
+    0%{
+        margin-top: -100vh;
+    }
+    100%{
+        margin-top: 0vh;
+    }
+}
+.microproject-section-box-title h2{
+    color: white;
+    font-family: 'Roboto Mono',monospace;
+    font-size: 22px;
+    text-align: center;
+}
+.microproject-section-box-title-desc{
+    color: rgba(255, 255, 255, 0.411);
+    font-family: 'Roboto Mono',monospace;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 12px;
+}
+  .wrap {
+    width: 100%;
+    position: relative;
+    vertical-align: middle;
+    font-family: 'Open Sans',serif;
+
+  }
+  .wrap .wrap-div {
+    position: relative;
+    margin: 25px 0;
+  }
+  .wrap-div-label{
+    position: absolute;
+    top: 0;
+    font-size: 15px;
+    margin: 10px;
+    padding: 0 10px;
+    background-color: transparent;
+    overflow: hidden;
+    -webkit-transition: top .2s ease-in-out, 
+                        font-size .2s ease-in-out;
+    transition: top .2s ease-in-out, 
+                font-size .2s ease-in-out;
+                color: white;
+  }
+  
+  .active {
+    top: -28px;
+    font-size: 14px;
+  } 
+  input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.13);
+    color: white;
+    border-radius: 5px;
+  } 
+  input[type=email] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.13);
+    color: white;
+    border-radius: 5px;
+  } 
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.13);
+    color: white;
+    border-radius: 5px;
+  } 
+  option{
+    background-color: #0e1212;
+    font-size: 16px;
+  }
+  #micro-submit-btn{
+      width: 100%;
+      height: 40px;
+      background-color: #682ae9;
+      color: white;
+      font-size: 16px;
+      font-family: 'Open Sans',serif;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  #micro-submit-btn:hover{
+      transition: 300ms ease-in-out;
+      transform: scale(0.94);
+      background-color: #662ae9b2;
+  }
+  input[type=text]:focus {
+    outline: none;
+  }
+  input[type=email]:focus {
+    outline: none;
+  }
+
+@media only screen and (max-width:400px){
+    .microproject-section{
+      padding-top: 35px;
+  }
+  .microproject-section-div{
+      padding: 0px 10px;
+  }
+  .microproject-section-div-box{ /* Microproject Box */
+      padding: 10px 25px;
+      border-radius: 10px;
+  }
+  .microproject-section-box-title h2{
+      font-size: 22px;
+  }
+  .microproject-section-box-title-desc{
+      font-size: 12px;
+      padding-top: 14px;
+  }
+    .wrap .wrap-div {
+      margin: 20px 0;
+    }
+    .wrap-div-label{
+      font-size: 13px;
+    }
+    
+    .active {
+      top: -28px;
+      font-size: 12px;
+    } 
+    input[type=text] {
+      font-size: 14px;
+    } 
+    input[type=email] {
+      font-size: 14px;
+    } 
+    select {
+      font-size: 13px;
+    } 
+    option{
+      font-size: 16px;
+    }
+}

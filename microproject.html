@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faijan Momin</title>
+    <link rel="stylesheet" href="css/micro.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="web-desktop-header">
+            <div class="mobile-hamburger-icon">
+                <input type="checkbox" id="hamburger" onclick="ShowNavMenu()">
+                <label class="menu" for="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </label>
+            </div>
+            <div class="web-desktop-header-branding"> <!--Branding-->
+                <div class="web-desktop-logo">
+                    <div class="web-desktop-logo-img"></div> <!-- Logo Image Here-->
+                    <div class="web-desktop-logo-name">
+                        <h1>Faijan Momin</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="web-desktop-header-navigation"> <!-- Navigation -->
+                <div id="web-desktop-nav-menu" class="web-desktop-nav-menu"> <!-- Navigation Links-->
+                    <ul>
+                        <li> <a href="index.html">Home</a> </li>
+                        <li> <a href="collab.html">Collabs</a> </li>
+                        <li> <a href="contact.html">Contact</a> </li>
+                    </ul>
+                </div>
+                <div id="web-desktop-social-media" class="web-desktop-social-media"> <!--Social Media Icon-->
+                    <ul>
+                        <li>
+                            <a href="https://github.com/faijan-momin/">
+                                <div id="nav-icon-github" class="navigation-social-media-icon"></div> <!--Github Icon-->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/faijan-momin-1459a9139/">
+                                <div id="nav-icon-linkedin" class="navigation-social-media-icon"></div> <!--Linkedin Icon-->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/faijan_momin">
+                                <div id="nav-icon-twitter" class="navigation-social-media-icon"></div> <!--Twitter Icon-->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/bewilder___one/">
+                                <div id="nav-icon-instagram" class="navigation-social-media-icon"></div> <!--Instagram Icon-->
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+        
+    <section class="microproject-section"> <!-- microproject Section -->
+        <div class="microproject-section-div">
+            <div class="microproject-section-div-box">
+                <div class="microproject-section-box-title">
+                    <h2>Microproject Details</h2>
+                </div>
+                <div class="microproject-section-box-title-desc">
+                    <p>Easy and Free Service for students</p>
+                </div>
+                <div class="microproject-section-box-input-details">
+                    <form action="#" method="post">
+                        <div class="wrap">
+                            <div class="wrap-div">
+                                <label class="wrap-div-label" for="name">Name</label>
+                                <input id="name" type="text" class="cool" required/>
+                            </div>
+                            <div class="wrap-div">
+                                <label class="wrap-div-label" for="email">Email</label>
+                                <input id="email" type="email" class="cool" required/>
+                            </div>
+                            <div class="wrap-div">
+                                <label class="wrap-div-label" for="projname">Project Name</label>
+                                <input id="projname" type="text" class="cool"/>
+                            </div>
+                            <div class="wrap-div">
+                                <select name="language" id="proj-lang">
+                                    <option selected disabled>Select Language</option>
+                                    <option value="c"> C</option>
+                                    <option value="cpp">C++</option>
+                                    <option value="java">Java</option>
+                                    <option value="javadesk">Adv Java</option>
+                                    <option value="php">PHP</option>
+                                    <option value="dotnet">DOT NET</option>
+                                    <option value="python">Python</option>
+                                    <option value="android">Android</option>
+                                    <option value="website">Full Stack Website</option>
+
+                                </select>
+                            </div>
+                            <div class="wrap-div">
+                                <label class="wrap-div-label" for="projdesc">Project Description</label>
+                                <input id="projdesc" type="text" class="cool"/>
+                            </div>
+                            <div class="wrap-div">
+                                <input id="micro-submit-btn" type="submit" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous" defer></script>
+    <script src="js/micro.js" defer></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>

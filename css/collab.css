@@ -1,0 +1,118 @@
+
+.my-collab-section{
+    display: flex;
+    justify-content: flex-start;
+    padding: 60px;
+}
+@media only screen and (max-width:600px){
+    .my-collab-section{
+        display: flex;
+        justify-content: flex-start;
+        padding: 40px;
+    }
+}
+@media only screen and (max-width:450px){
+    .my-collab-section{
+        display: flex;
+        justify-content: flex-start;
+        padding: 15px;
+    }
+}
+.my-collab-section-div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.my-collab-section-title{
+    color: white;
+    font-family: 'Open Sans',serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.my-collab-section-title h2{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+.my-collab-section-all-box{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.my-collab-section-single-box{
+    height: 27vh;
+    width: 40vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: #662ae9 0px 2px 8px -4px;
+    flex-direction: column;
+}
+.my-collab-section-box-image{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+#my-collab-image-malshej-agro{
+    background-image: url('../content/collabs/malshejagro.png');
+}
+#my-collab-image-grape-city{
+    background-image: url('../content/collabs/thegrapecity.jpg');
+}
+#my-collab-image-infilearn{
+    background-image: url('../content/collabs/infilearn.png');
+}
+.my-collab-section-box-link{
+    padding: 45px 0px 15px 0px;
+    background:linear-gradient(0deg , rgba(0, 0, 0, 1) ,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0));
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-collab-section-box-link p{
+    color: white;
+    font-family: 'Open Sans',serif,sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 900;
+}
+.my-collab-section-single-box:hover{
+    transition: 300ms ease-in-out;
+    transform: scale(1.0);
+    margin-top: -40px;
+}
+
+@media only screen and (max-width:800px){
+    .my-collab-section-single-box:hover{
+        transform: scale(1.10);
+        margin-top: 0px;
+    }
+}
