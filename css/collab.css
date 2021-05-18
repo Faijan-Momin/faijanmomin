@@ -1,4 +1,6 @@
-
+html,body{
+    overflow: scroll;
+}
 .my-collab-section{
     display: flex;
     justify-content: flex-start;
