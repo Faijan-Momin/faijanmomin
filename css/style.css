@@ -59,7 +59,7 @@ header{
   width: fit-content;
   height: fit-content;
 }
-.web-desktop-logo-name p{
+.web-desktop-logo-name h1{
   color: #682ae9;
   background-color: #0e1212;
   font-family: 'Roboto Mono',monospace;
@@ -162,7 +162,7 @@ header{
       height: 40px;
       width: 30px;
   }
-  .web-desktop-logo-name p{
+  .web-desktop-logo-name h1{
     font-size: 26px;
   }
   .web-desktop-header-navigation{
@@ -252,7 +252,7 @@ header{
   }
 }
 @media only screen and (max-width:340px){
-  .web-desktop-logo-name p{
+  .web-desktop-logo-name h1{
     font-size: 23px;
   }
 }
