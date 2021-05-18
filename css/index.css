@@ -25,7 +25,7 @@ body{
 }
 .our-branding-section-div-message{
     color: white;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace,sans-serif;
     font-size: 36px;
 }
 .our-branding-section-div-message h2{
@@ -38,7 +38,7 @@ body{
 .our-branding-section-div-job-done h3{
     margin: 15px 5px;
     color: rgba(255, 255, 255, 0.7);
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace,sans-serif;
     font-size: 16px;
     font-weight: 300;
 }

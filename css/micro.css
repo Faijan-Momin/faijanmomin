@@ -38,13 +38,13 @@ body{
 }
 .microproject-section-box-title h2{
     color: white;
-    font-family: 'Roboto Mono',monospace;
+    font-family: 'Roboto Mono',monospace,sans-serif;
     font-size: 22px;
     text-align: center;
 }
 .microproject-section-box-title-desc{
     color: rgba(255, 255, 255, 0.411);
-    font-family: 'Roboto Mono',monospace;
+    font-family: 'Roboto Mono',monospace,sans-serif;
     font-size: 14px;
     text-align: center;
     padding-top: 12px;
