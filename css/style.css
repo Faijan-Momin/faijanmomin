@@ -8,6 +8,7 @@
   padding: 0;
   margin: 0; 
   font-family: 'Roboto Mono', monospace,sans-serif;
+  box-sizing: border-box;
 }
 html,body{
     background-color: #0e1212;
@@ -24,6 +25,10 @@ header{
     align-items: center;
     padding: 5px;
     background-color: #0e1212;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 .web-desktop-header{
     height: fit-content;
@@ -179,19 +184,19 @@ header{
     position: absolute;
     height: 100vh;
     width: 260px;
-    top: 60px;
-    left: -1000px;
+    top: 55px;
+    left: -300px;
     z-index: 9;
-    transition: left 600ms ease-in-out;
+    transition: left 300ms ease-in-out;
   }
   #web-desktop-nav-menu-show{
     position: absolute;
     height: 100vh;
     width: 260px;
-    top: 60px;
+    top: 55px;
     left: 0px;
     z-index: 9;
-    transition: left 600ms ease-in-out;
+    transition: left 300ms ease-in-out;
   }
   .web-desktop-nav-menu ul{ /*Navigation UL*/
     justify-content: flex-start;
@@ -215,9 +220,9 @@ header{
     height: 10vh;
     width: 260px;
     top: 320px;
-    left: -1000px;
+    left: -300px;
     z-index: 9;
-    transition: left 600ms ease-in-out;
+    transition: left 300ms ease-in-out;
   }
   #web-desktop-social-media-show{
     position: absolute;
@@ -226,7 +231,7 @@ header{
     top: 320px;
     left: 0px;
     z-index: 9;
-    transition: left 600ms ease-in-out;
+    transition: left 300ms ease-in-out;
   }
   .web-desktop-social-media{ /*Social media Icons*/
     background-color: transparent;
@@ -315,3 +320,50 @@ header{
     display: block;
   }
 }
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  padding: 10px;
+}
+.web-desktop-footer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  padding-left: 5%;
+}
+.web-desktop-footer p{
+  color: white;
+  font-size: 15px;
+}
+@media only screen and (max-width:500px){
+  .web-desktop-footer{
+    padding-left: 2%;
+  }
+  .web-desktop-footer p{
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .web-desktop-footer{
+    padding-left: 1%;
+  }
+  .web-desktop-footer p{
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width:340px){
+  .web-desktop-footer{
+    padding-left: 1%;
+  }
+  .web-desktop-footer p{
+    font-size: 9px;
+  }
+} 
